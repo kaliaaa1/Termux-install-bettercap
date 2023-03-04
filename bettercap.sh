@@ -19,4 +19,5 @@ echo"                  "
 echo"安装完成"
 echo"                  "
 echo"                  "
+ sleep 5s
 sudo bettercap
