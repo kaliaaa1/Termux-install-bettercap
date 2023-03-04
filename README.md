@@ -3,11 +3,11 @@
 安装需要手机有root权限
 
 ```安装wget
-pkg install wget
+pkg install git
 ```
 
 ```下载安装脚本
-wget https://github.com/kaliaaa1/Termux-install-bettercap/blob/main/bettercap.sh
+git https://github.com/kaliaaa1/Termux-install-bettercap.git
 
 chmod +x bettercap.sh
 
@@ -23,7 +23,7 @@ mkdir -p /home/builder/.termux-build/_cache/18-arm-21-v2/bin/
 ln -s `which pkg-config` /home/builder/.termux-build/_cache/18-arm-21-v2/bin/arm-linux-androideabi-pkg-config
 ```
 
-解决Termux wget报错
+解决Termux 一些报错报错
 
 ```
 pkg install openssl1.1-tool
