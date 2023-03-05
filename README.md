@@ -21,7 +21,9 @@ chmod +x bettercap.sh
 ```
 sudo su
 mount -o rw,remount /
+
 mkdir -p /home/builder/.termux-build/_cache/18-arm-21-v2/bin/
+
 ln -s `which pkg-config` /home/builder/.termux-build/_cache/18-arm-21-v2/bin/arm-linux-androideabi-pkg-config
 ```
 
