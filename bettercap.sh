@@ -1,5 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
-echo -e "\033[31m 自动化安装bettercap \033[0m"
+echo -e "\033[32m 自动化安装bettercap \033[0m"
 pkg update && pkg upgrade -y
 pkg install golang git libpcap libusb root-repo tsu -y
 pkg install libnetfilter-queue -y
@@ -20,8 +20,8 @@ if [! -d "/home/" ]; then
     sudo mount -o rw,remount /
     sudo mkdir -p /home/builder/.termux-build/_cache/18-arm-21-v2/bin/
     sudo ln -s `which pkg-config` /home/builder/.termux-build/_cache/18-arm-21-v2/bin/arm-linux-androideabi-pkg-config
+    echo -e "\033[32m bug修复完毕准备启动bettercap \033[0m"
 else
-echo -e "\033[32m bug修复完毕准备启动bettercap \033[0m"
 sleep 5s
 sudo bettercap
 fi
