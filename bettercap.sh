@@ -10,7 +10,7 @@ if [ -d "/data/data/com.termux/files/home/Termux-install-bettercap/bettercap" ];
     cd bettercap
     make build
     sudo make install
-    sudo bttercap
+    sudo bettercap
 else 
 git clone https://github.com/bettercap/bettercap.git
 cd bettercap
