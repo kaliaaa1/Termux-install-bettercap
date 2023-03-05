@@ -6,7 +6,7 @@ pkg install libnetfilter-queue -y
 pkg install -y make make-guile
 pkg install pkg-config -y
 echo "依赖安装完成"
-if [ -d "/data/data/com.termux/files/bettercap" ]; then
+if [ -d "/data/data/com.termux/files/home/Termux-install-bettercap/bettercap" ]; then
     cd bettercap
     make build
     sudo make install
