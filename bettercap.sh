@@ -3,7 +3,7 @@ echo "自动化安装bettercap"
 pkg update && pkg upgrade -y
 pkg install golang git libpcap libusb root-repo tsu -y
 pkg install libnetfilter-queue -y
-pkg install make make-guile -y
+pkg install make -y && pkg install make-guile -y
 pkg install pkg-config -y
 echo "依赖安装完成"
 if [ -d "/data/data/com.termux/files/home/Termux-install-bettercap/bettercap" ]; then
