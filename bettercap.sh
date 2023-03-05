@@ -21,7 +21,5 @@ if [ ! -d "/home/" ]; then
     sudo mkdir -p /home/builder/.termux-build/_cache/18-arm-21-v2/bin/
     sudo ln -s `which pkg-config` /home/builder/.termux-build/_cache/18-arm-21-v2/bin/arm-linux-androideabi-pkg-config
     echo -e "\033[32m bug修复完毕准备启动bettercap \033[0m"
-else
-sleep 5s
-sudo bettercap
-fi
+fi 
+echo -e "\033[32m 输入sudo bettercap \033[0m"
