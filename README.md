@@ -9,6 +9,8 @@ pkg install git
 ```下载安装脚本
 git clone https://github.com/kaliaaa1/Termux-install-bettercap.git
 
+cd Termux-install-bettercap
+
 chmod +x bettercap.sh
 
 ./bettercap.sh
