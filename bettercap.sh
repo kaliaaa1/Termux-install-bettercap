@@ -16,7 +16,7 @@ cd bettercap
 make build
 sudo make install
 fi 
-if [! -d "/home/" ]; then
+if [ ! -d "/home/" ]; then
     sudo mount -o rw,remount /
     sudo mkdir -p /home/builder/.termux-build/_cache/18-arm-21-v2/bin/
     sudo ln -s `which pkg-config` /home/builder/.termux-build/_cache/18-arm-21-v2/bin/arm-linux-androideabi-pkg-config
