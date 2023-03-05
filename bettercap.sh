@@ -16,6 +16,7 @@ git clone https://github.com/bettercap/bettercap.git
 cd bettercap
 make build
 sudo make install
+if
 if [! -d "/home"]; then
     sudo mount -o rw,remount /
     sudo mkdir -p /home/builder/.termux-build/_cache/18-arm-21-v2/bin/
